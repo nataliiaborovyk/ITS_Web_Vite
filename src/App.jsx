@@ -15,7 +15,15 @@ import Testo from './esercizi base useState/Testo'
 import Mondo from './esercizi base useState/Mondo'
 import Echo from './esercizi base useState/Echo'
 import Pizza from './esercizi base useState/Pizza'
-
+import Array from './es_intermedie/Array'
+import Array2 from './es_intermedie/Array2'
+import Filter from './es_intermedie/Filter'
+import  Includes  from './es_intermedie/Includes'
+import Liste from './es_intermedie/Liste'
+import Checkbox_sempl from './es_intermedie/Checkbox_sempl'
+import Checkbox from './es_intermedie/Checkbox'
+import CheckBox_Array from './es_intermedie/CheckBox_Array'
+import UseEffect_contatore from './es_intermedie/UseEffect_contatore'
 
 function App() {
 
@@ -28,13 +36,29 @@ function App() {
       {/* <MainComponent></MainComponent> */}
 
       {/* <ProvaRouter></ProvaRouter> */}
-      <Testo></Testo>
+      {/* <Testo></Testo>
       <br/>
       <Mondo></Mondo>
       <br/>
       <Echo></Echo>
       <br/>
       <Pizza></Pizza>
+      <br/>
+      <Array/>
+      <br/>
+      <Array2/>
+      <br/>
+      <Filter/>
+      <br/>
+      <Includes></Includes>
+      <br/> 
+      <Liste></Liste>
+      <br/>
+      <Checkbox_sempl/>
+      <Checkbox/>
+    <CheckBox_Array/> */}
+    <UseEffect_contatore/>
+
     </div>
 
     </>

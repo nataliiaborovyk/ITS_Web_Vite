@@ -1,0 +1,72 @@
+1) api.js — cosa ha aggiunto il prof e perché
+Cos’è
+
+Un file con funzioni “service” che parlano col server (JSON Server a http://localhost:4000/tasks).
+Serve per separare la logica di rete (fetch/POST/PATCH/DELETE) dal resto dei componenti.
+Vantaggi:
+
+codice più pulito dentro i componenti,
+
+riuso facile,
+
+test più semplice,
+
+se cambia l’API, modifichi solo qui.
+
+Cosa contiene (spiegato semplice)
+
+export const API_URL = "http://localhost:4000/tasks";
+
+Solo una costante con l’URL base. Se un giorno cambia, lo cambi qui.
+
+fetchTaskService()
+
+GET tutte le task.
+
+Controlla response.ok: se è falso → throw new Error("Errore nella fetch").
+
+Ritorna data (array di task).
+
+deleteTaskService(id)
+
+DELETE su /tasks/{id}.
+
+Elimina una task dal server.
+
+(Nota: qui non controlla response.ok. Si potrebbe aggiungere come in fetchTaskService.)
+
+addTaskService(text)
+
+POST su /tasks.
+
+Invia JSON: { text, completed: false }.
+
+Aggiunge una nuova task.
+
+toggleTaskService(id, completed)
+
+PATCH su /tasks/{id}.
+
+Invia { completed: !completed } → inverte lo stato “fatta/non fatta”.
+
+updateTaskService(id, text)
+
+PATCH su /tasks/{id}.
+
+Invia { text } → aggiorna il testo della task.
+
+Differenze rispetto alla versione 1
+
+Prima le fetch erano dentro i componenti; ora sono funzioni esterne riutilizzabili.
+
+Ora abbiamo tutte le operazioni CRUD:
+
+C (Create) → addTaskService
+
+R (Read) → fetchTaskService
+
+U (Update) → updateTaskService e toggleTaskService
+
+D (Delete) → deleteTaskService
+
+Uso di PATCH per modifiche parziali (solo alcuni campi), invece di PUT.

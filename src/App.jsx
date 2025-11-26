@@ -24,6 +24,7 @@ import Checkbox_sempl from './es_intermedie/Checkbox_sempl'
 import Checkbox from './es_intermedie/Checkbox'
 import CheckBox_Array from './es_intermedie/CheckBox_Array'
 import UseEffect_contatore from './es_intermedie/UseEffect_contatore'
+import Ciao from './Ciao'
 
 function App() {
 
@@ -42,13 +43,13 @@ function App() {
       <br/>
       <Echo></Echo>
       <br/>
-      <Pizza></Pizza>
+      <Pizza></Pizza> */}
       <br/>
       <Array/>
       <br/>
       <Array2/>
       <br/>
-      <Filter/>
+      {/* <Filter/>
       <br/>
       <Includes></Includes>
       <br/> 
@@ -57,7 +58,7 @@ function App() {
       <Checkbox_sempl/>
       <Checkbox/>
     <CheckBox_Array/> */}
-    <UseEffect_contatore/>
+    {/* <UseEffect_contatore/> */}
 
     </div>
 

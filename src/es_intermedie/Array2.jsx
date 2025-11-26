@@ -10,7 +10,7 @@ const pizza = [
 
   return (
     <div className='container'>
-        <h3>Menu Pizza</h3>
+        <h3>Es.2 Menu Pizza</h3>
 
         {pizza.map(
             (p) => (

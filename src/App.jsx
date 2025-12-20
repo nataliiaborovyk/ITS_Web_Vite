@@ -26,6 +26,8 @@ import CheckBox_Array from './es_intermedie/CheckBox_Array'
 import UseEffect_contatore from './es_intermedie/UseEffect_contatore'
 import Ciao from './Ciao'
 
+import UserAlbumsPhotos from './in_classe_19_12/UserAlbumsPhotos'
+
 function App() {
 
 
@@ -33,32 +35,8 @@ function App() {
     <>
     <div className = "container pu-3">
 
-      {/* <TodoApp></TodoApp> */}
-      {/* <MainComponent></MainComponent> */}
 
-      {/* <ProvaRouter></ProvaRouter> */}
-      {/* <Testo></Testo>
-      <br/>
-      <Mondo></Mondo>
-      <br/>
-      <Echo></Echo>
-      <br/>
-      <Pizza></Pizza> */}
-      <br/>
-      <Array/>
-      <br/>
-      <Array2/>
-      <br/>
-      {/* <Filter/>
-      <br/>
-      <Includes></Includes>
-      <br/> 
-      <Liste></Liste>
-      <br/>
-      <Checkbox_sempl/>
-      <Checkbox/>
-    <CheckBox_Array/> */}
-    {/* <UseEffect_contatore/> */}
+    <UserAlbumsPhotos/>
 
     </div>
 

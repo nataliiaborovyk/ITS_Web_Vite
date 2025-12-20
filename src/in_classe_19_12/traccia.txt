@@ -1,0 +1,35 @@
+Devo creare una piccola applicazione React che lavora con le API di JSONPlaceholder e gestisce 3 livelli collegati tra loro:
+
+Select degli Utenti
+
+    Al caricamento della pagina devo:
+
+    fare una fetch agli users
+
+    salvare gli utenti nello state
+
+    popolare una <select>
+
+    L’utente sceglie un user → questa scelta deve essere salvata in uno useState.
+
+Select degli Album
+
+    Quando cambia lo user selezionato:
+
+    faccio una fetch agli albums filtrati per userId
+
+    salvo gli album nello state
+
+    popolo una seconda <select>
+
+    L’utente sceglie un album → anche questo valore va salvato in uno useState.
+
+Visualizzare le Foto
+
+    Quando cambia l’album selezionato:
+
+    faccio una fetch alle photos filtrate per albumId
+
+    salvo le foto nello state
+
+    mostro le foto (lista o griglia, come preferisci)

@@ -10,6 +10,8 @@ import Evento2 from './0_per_esame/Evento2'
 import Evento3 from './0_per_esame/Evento3'
 import Map2 from './0_per_esame/Map2'
 import MapListaCorsiPadre from './0_per_esame/MapListaCorsiPadre'
+import Map2LP from './0_per_esame/Map2LP'
+import ChildrenPropsPadre from './0_per_esame/ChildrenPropsPadre'
 
 function App() {
 
@@ -29,7 +31,9 @@ function App() {
     <Evento2/>
     <Evento3/> */}
     {/* <Map2/> */}
-    <MapListaCorsiPadre/>
+    {/* <MapListaCorsiPadre/> */}
+    {/* <Map2LP/> */}
+    <ChildrenPropsPadre/>
     </div>
 
     </>

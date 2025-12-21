@@ -12,6 +12,15 @@ import Map2 from './0_per_esame/Map2'
 import MapListaCorsiPadre from './0_per_esame/MapListaCorsiPadre'
 import Map2LP from './0_per_esame/Map2LP'
 import ChildrenPropsPadre from './0_per_esame/ChildrenPropsPadre'
+import Form1 from './0_per_esame/Form1'
+import Form2 from './0_per_esame/Form2'
+import Select1 from './0_per_esame/Select1'
+import Select2_map_foreach from './0_per_esame/Select2_map_foreach'
+import Async1 from './0_per_esame/Async1_style_try'
+import UseEff1_dipendenze from './0_per_esame/UseEff1_dipendenze'
+import UseEff_fetch from './0_per_esame/UseEff_fetch'
+import UseRef_cronometro from './0_per_esame/UseRef_cronometro'
+import UseEff_cronometro from './0_per_esame/UseEff_cronometro'
 
 function App() {
 
@@ -33,7 +42,16 @@ function App() {
     {/* <Map2/> */}
     {/* <MapListaCorsiPadre/> */}
     {/* <Map2LP/> */}
-    <ChildrenPropsPadre/>
+    {/* <ChildrenPropsPadre/> */}
+    {/* <Form1/> */}
+    {/* <Form2/> */}
+    {/* <Select1/>
+    <Select2_map_foreach/> */}
+    {/* <Async1/> */}
+    {/* <UseEff1_dipendenze/>
+    <UseEff_fetch/> */}
+    {/* <UseEff_cronometro/> */}
+    <UseEff_cronometro/>
     </div>
 
     </>

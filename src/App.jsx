@@ -21,6 +21,7 @@ import UseEff1_dipendenze from './0_per_esame/UseEff1_dipendenze'
 import UseEff_fetch from './0_per_esame/UseEff_fetch'
 import UseRef_cronometro from './0_per_esame/UseRef_cronometro'
 import UseEff_cronometro from './0_per_esame/UseEff_cronometro'
+import ProvaRouter from './Router/ProvaRouter'
 
 function App() {
 
@@ -51,7 +52,8 @@ function App() {
     {/* <UseEff1_dipendenze/>
     <UseEff_fetch/> */}
     {/* <UseEff_cronometro/> */}
-    <UseEff_cronometro/>
+    {/* <UseEff_cronometro/> */}
+    <ProvaRouter/>
     </div>
 
     </>
